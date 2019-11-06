@@ -7,15 +7,15 @@
     font-family: 'Cabin';
 }
 body{
-    background-image: url("../images/KSRTC.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
+    background: #1a1a1d;
 }
 #main{
     width: 35%;
     margin: 15% auto;
+    border-style: solid;
+    border-color: #c3073f;
+    border-width: 10px;
+    border-radius: 30px;
 }
 #tab-btn{
     display: -webkit-flex;
@@ -25,26 +25,36 @@ body{
     display: flex;
     width: 100%;
     justify-content: center;
+    border-style: solid;
+    border-color: #c3073f;
+    border-width: 10px;
+    border-top-left-radius:17px;
+    border-top-right-radius: 17px;
+    
+
 }
 .login,.register{
     text-decoration: none;
     display: block;
     width: 100%;
-    background-color: #37474f;
+    background-color: #c3073f;
     text-align: center;
     color: #fff;
     font-size: 25px;
     padding: 10px;
 }
 .active{
-    background-color: #eee;
-    color: #000;
+    background-color:  #1a1a1d;
+    color: antiquewhite;
 }
 .content,.other{
     width: 100%;
     background-color: #eee;
     padding: 20px 30px 30px 30px;
     box-shadow: 2px 2px 5px #333;
+    border-bottom-left-radius:17px;
+    border-bottom-right-radius: 17px;
+    
 }
 .other{
     display: none;
@@ -55,14 +65,14 @@ body{
     margin-bottom: 15px;
     font-size: 20px;
     border: 2px solid #888;
-    border-bottom: 5px solid #888;
-    background-color: #fff;
-    color: #666;
+    background-color:  #1a1a1d;
+    border-radius: 20px;
+    color: #ffffff;
 }
 .inp:focus{
     outline: none;
     border: 2px solid #555;
-    border-bottom: 5px solid #555;
+    border-bottom: 5px solid #c3073f;
 }
 #sub-btn{
     width: 100%;
@@ -70,10 +80,12 @@ body{
     border: none;
     font-size: 20px;
     font-weight: bold;
-    background-color: #f44336;
+    background-color: #c3073f;
     color: #fff;
     cursor: pointer;
-    border-bottom: 5px solid #444;
+  
+ 
+    border-radius:20px;
 }
 #sub-btn:focus{
     outline: none;
